@@ -11,7 +11,7 @@ export default function MenuMongo() {
     const fetchCards = async () => {
       try {
         // Sending a GET request to fetch cards from the backend
-        const response = await fetch("http://localhost:3000/cards");
+        const response = await fetch("http://98.85.166.161:3000/cards");
 
         if (!response.ok) {
           throw new Error("Failed to fetch cards");
