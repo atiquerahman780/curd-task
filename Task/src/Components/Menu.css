@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.Form{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.Form_items{
+    padding: 3px;
+    margin: 10px;
+}
+.table{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+}
