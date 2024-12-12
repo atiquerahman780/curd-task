@@ -76,7 +76,7 @@ export default function MenuMongo() {
   // Function to send data to the backend
   const sendCardsToBackend = async (data) => {
     try {
-      const response = await fetch("http://localhost:3000/message", {
+      const response = await fetch("http://98.85.166.161:3000/message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -174,7 +174,7 @@ export default function MenuMongo() {
                 onClick={async () => {
                   try {
                     const response = await fetch(
-                      `http://localhost:3000/message/${card.day}`,
+                      `http://98.85.166.161:3000/message/${card.day}`,
                       {
                         method: "DELETE",
                       }
